@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,400;1,500&family=Gulzar&family=Inter:wght@600;700;800;900&family=Katibeh&family=Montserrat:ital,wght@0,100;0,400;1,100;1,400&family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.Nav-Bar {
+    background-color: white;
+    display: flex;
+
+    margin: auto;
+    margin-top: 0px;
+    margin-right: 0px;
+
+
+    height: 90px;
+    width: 90%;
+    z-index: 1;
+}
+
+
+#Logo {
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+    margin-left: 0px;
+}
+
+
+.Nav-link-Container {
+    /* background-color: #463f33;
+    border-radius: 20px;
+
+    padding: 8px; */
+    gap:50px;
+
+    display: flex;
+
+    margin: auto;
+    width: auto;
+}
+
+#NavLink {
+    color: black;
+    transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#NavLink:visited {
+    color: black;
+}
+
+#NavLink:active {
+    color: black;
+}
+
+#NavLink:hover {
+    transform: scale("");
+    color: #c6a16e;
+}
+
+
+#Visit-Us {
+    background-color: #c6a16e;
+
+    display: flex;
+
+    margin: auto;
+    margin-right: 0px;
+
+    height: 100%;
+    width: 240px;
+}
+
+#Visit-Us a {
+    margin: auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menuIcon {
+    margin: auto;
+    margin-right: 20px;
+
+    height: 50px;
+
+    display: none;
+}

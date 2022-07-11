@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,400;1,500&family=Gulzar&family=Inter:wght@600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,300;0,600;0,700;1,100;1,600;1,700&family=Katibeh&family=Montserrat:ital,wght@0,100;0,400;1,100;1,400&family=Space+Grotesk:wght@300&display=swap');
+
+
+
+
+/* WHAT WE OFFER SECTION START */
+
+.What-We-offer-Section {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    gap: 50px;
+
+    margin: auto;
+    margin-top: 670px;
+
+    height: auto;
+    width: 70%;
+}
+
+.Box-Title {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#WW0 {
+    color: #c6a16e;
+    font-size: 35px;
+    font-weight: 500;
+
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#WWOTC {
+    color: #c6a16e;
+    font-size: 60px;
+    font-weight: 700;
+
+    margin: auto;
+}
+
+.Offer-Cards-Container {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#Service-Number {
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 60px;
+    top: 30px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #c6a16e;
+    font-size: var(--text);
+    transition: 0.5s all ease-in-out;
+}
+
+.Offer-Card {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+    height: 640px;
+    width: 300px;
+}
+
+.Service-Image-Container {
+    width: 300px;
+    height: 340px;
+    overflow: hidden;
+}
+
+.Service-Text-Container {
+    width: 300px;
+    height: 340px;
+}
+
+#Card-Title {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+
+    margin: auto;
+    margin-bottom: 30px;
+
+    line-height: 1.5;
+    transition: 0.7s all ease-in-out;
+}
+
+#Card-Description {
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+    margin-top: 10px;
+
+    line-height: 1.5em;
+}
+
+#Service-Image {
+    transition: 0.7s all ease-in-out;
+}
+
+
+#Service-Image:hover {
+    transform: scale(1.2);
+}
+  
+#Service-Number:hover {
+color: #c6a16e;
+background-color: white;
+}
+  
+.Offer-Card:hover #Service-Image {
+    transform: scale(1.2);
+}
+  
+.Offer-Card:hover #Service-Number {
+    color: #c6a16e;
+    background-color: white;
+}
+  
+.Offer-Card:hover #Card-Title {
+    color: #c6a16e;
+}
+
+.Offer-Card:hover #More-Icon {
+color: white;
+}
+
+#Card-Title:hover  {
+color: #c6a16e;
+}
+
+/* WHAT WE OFFER SECTION END */
+
+
+/* HISTORY SECTION START */
+
+.History-Card-Container {
+    display: flex;
+
+    position: relative;
+
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 100px;
+
+    height: 580px;
+    width: 1200px;
+}
+
+.Video-Card {
+    background-image: url(../../../Assets/Images/Gallery/videobg.jpg);
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    /* margin: auto;
+    margin-left: 0px;
+    margin-top: 0px; */
+
+    height: 480px;
+    width: 560px;
+}
+
+
+
+#CircularPlayIcon {
+    background-color: white;
+    position: absolute;
+    left: 40%;
+    top: 35%;
+
+    height: 120px;
+}
+
+#CircularPlayIcon:hover {
+    color: #c6a16e;
+}
+
+.History-Information-Card {
+    background-color: #f4efe6;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px;
+
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+    z-index: -1;
+    
+    /* margin: auto;
+    margin-right: 0px;
+    margin-bottom: 0px; */
+
+    height: 480px;
+    width: 700px;
+}
+
+.History-Text-Container {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+    height: 90%;
+    width: 500px;
+}
+
+.History-Text-Container > h3 {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700px;
+
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+.History-Text-Container > p {
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+
+    margin: auto;
+    margin-top: 0px;
+
+    text-align: left;
+    line-height: 32px;
+}
+
+.MoreLink {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background-color: #c6a16e;
+    color: white;
+    font-size: 14px;
+    width: 160px;
+    height: 54px;
+    letter-spacing: 1.5px;
+    transition: 0.5s all ease;
+  }
+  
+  .MoreLink:hover {
+    transform: scale(1.05);
+  }
+
+
+
+/* HISTORY SECTION END */
