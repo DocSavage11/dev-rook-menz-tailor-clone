@@ -4,11 +4,15 @@ import './LandingPageComponents.css'
 function OurHistory() {
   return (
     <div className="History-Card-Container">
-        <div className="Video-Card ">
+        <div className="Video-Card bruh-wtf ">
 
+            <div className="pulse-container">
                 <a href="#">
-                <img id='CircularPlayIcon' src={require('../../../Assets/Icons/Circular-Play-Icon.svg')} alt="" />
+                    <i id='CircularPlayIcon' class="fa fa-play-circle" ></i>
                 </a>
+
+                <div class="pulse"></div>
+            </div>
 
         </div>
 

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,400;1,500&family=Great+Vibes&family=Gulzar&family=Inter:wght@600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,300;0,600;0,700;1,100;1,600;1,700&family=Katibeh&family=Montserrat:ital,wght@0,100;0,400;1,100;1,400&family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.Footer-Container {
+    border: 1px solid white;
+    display: flex;
+
+    position: relative;
+
+    margin-top: 300px;
+
+    height: 1000px;
+    width: 100%;
+}
+
+.Santa-Guy {
+    display: flex;
+
+    background-image: url('../../../Assets/Images/Gallery/footer_bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    left: 0px;
+
+    height: 1000px;
+    min-height: 500px;
+    width: 65vw;
+
+    z-index: -1;
+}
+
+.Footer-Information-Card {
+    background-color: #c6a16e;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 60px 0 0 110px;
+
+    color: white;
+    line-height: 2;
+
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+    height: 580px;
+    width: 1250px;
+}
+
+.Footer-Title {
+    text-align: left;
+    max-width: 600px;
+    line-height: 1.5;
+    color: white;
+}
+
+#Footer-Title {
+    font-size: 60px;
+}
+
+.divider {
+    width: 46vw;
+    margin: 50px 0;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+
+
+.Footer-Info-Container {
+    border: 1px solid black;
+    display: flex;
+    gap: 80px;
+}
+
+#Footer-info-Heading {
+    margin: auto;
+}
+
+.Footer-Contact-Container {
+    border: 1px solid black;
+
+    padding: 10px;
+}

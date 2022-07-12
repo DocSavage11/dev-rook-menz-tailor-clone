@@ -1,4 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,400;1,500&family=Gulzar&family=Inter:wght@600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,300;0,600;0,700;1,100;1,600;1,700&family=Katibeh&family=Montserrat:ital,wght@0,100;0,400;1,100;1,400&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,400;1,500&family=Great+Vibes&family=Gulzar&family=Inter:wght@600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,300;0,600;0,700;1,100;1,600;1,700&family=Katibeh&family=Montserrat:ital,wght@0,100;0,400;1,100;1,400&family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
 
 
 
@@ -26,10 +40,13 @@
     margin: auto;
     margin-top: 0px;
     margin-bottom: 50px;
+
+    width: 100%;
 }
 
 #WW0 {
     color: #c6a16e;
+    font-family: 'Great Vibes', cursive;
     font-size: 35px;
     font-weight: 500;
 
@@ -39,6 +56,7 @@
 
 #WWOTC {
     color: #c6a16e;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 60px;
     font-weight: 700;
 
@@ -181,15 +199,63 @@ color: #c6a16e;
     width: 560px;
 }
 
+.pulse-container {
+    position: absolute;
+    left: 43%;
+    top: 43%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  .pulse{
+    border-radius: 50%;
+    border: 5px solid transparent;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: -1;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    transition: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  @keyframes pulse {
+    0% {
+      border: 5px solid #c6a16e;
+    }
+  
+    40% {
+      width: 140px;
+      height: 140px;
+      border: 0px solid transparent;
+    }
+  }
+
+  .pulse-container:hover .pulse {
+    animation-name: pulse-white;
+  }
+  
+  @keyframes pulse-white {
+    0% {
+      border: 5px solid white;
+    }
+  
+    40% {
+      width: 140px;
+      height: 140px;
+      border: 0px solid transparent;
+    }
+  }
 
 
 #CircularPlayIcon {
-    background-color: white;
-    position: absolute;
-    left: 40%;
-    top: 35%;
+  color: white;
+  font-size: 80px;
+  transition: 0.5s all ease-in-out;
 
-    height: 120px;
 }
 
 #CircularPlayIcon:hover {
@@ -273,3 +339,234 @@ color: #c6a16e;
 
 
 /* HISTORY SECTION END */
+
+
+/* CLIENT FEEDBACK START */
+
+.Feedback-Container {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 300px;
+
+    width: 100%;
+}
+
+.Feedback-Slider {
+    display: flex;
+
+    justify-content: center;
+
+    margin: auto;
+
+    width: 1000px;
+}
+
+
+
+/* CLIENT FEEDBACK END */
+
+
+
+/* OUR LOCATIONS SECTION START */
+
+.Our-Location-Section {
+    display: flex;
+
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 100px;
+
+    height: 1200px;
+    width: 100%;
+}
+
+.Visit-Our-Tailors-Box {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    padding: 20px;
+
+    height: 400px;
+    width: 550px;
+}
+
+.Visit-Box-Title {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+
+    width: 100%;
+}
+
+#OurLocatiion {
+    color: #c6a16e;
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    font-weight: 500;
+
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#VisitOurTailors {
+    color: #c6a16e;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+
+    margin: auto;
+}
+
+
+#locationDescription {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+}
+
+#emails {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+}
+
+.openingHours {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 20px;
+}
+
+#openingHours {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: auto;
+    margin-bottom: 10px;
+} 
+
+
+
+
+.Huge-Picture-Board {
+    background-image: url('../../../Assets/Images/Gallery/visit_bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 0;
+
+
+    
+
+    margin: auto;
+    margin-right: 0px;
+
+    height: 100%;
+    width: 50vw;
+
+}
+
+.Ten-Percent-Off-Box {
+    background-color: rgba(198, 161, 110, 0.533);
+    padding: 60px 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Ten-Percent-Off-Box h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;;
+}
+
+.GetOfferLink {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    width: 160px;
+    height: 54px;
+    letter-spacing: 1.5px;
+    transition: 0.5s all ease;
+  }
+
+
+
+/* OUR LOCATIONS SECTION END */
+
+
+
+/* LOREM SLIDER START */
+
+.Lorem-Slider {
+    border: 1px solid rgba(198, 161, 110, 0.231);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    margin: auto;
+    margin-top: 300px;
+
+    height: 350px;
+    width: 85%;
+}
+
+.Text-Container {
+    text-align: center;
+
+    margin: auto;
+
+    width: 80%;
+}
+
+.Text-Container > p {
+    margin: 60px 30px 0 60px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.Lorem-Slider > .Text-Container > .carousel-control-prev {
+    position: absolute;
+    left: -90px;
+}
+
+.Lorem-Slider > .carousel-control-next {
+    position: absolute;
+    right: -90px;
+}
+
+.Lorem-Slider > .carousel-indicators {
+    position: absolute;
+    bottom: -90px;
+}
+
+
+/* LOREM SLIDER END */
