@@ -8,6 +8,7 @@
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 ul {
@@ -83,17 +84,65 @@ ul {
 
 
 .Footer-Info-Container {
-    border: 1px solid black;
     display: flex;
     gap: 80px;
 }
 
 #Footer-info-Heading {
-    margin: auto;
+
+    line-height: 1.5;
+    color: white;
+    font-size: 24px;
+
+    margin-left: 32px;
+    margin-bottom: 30px;
 }
 
 .Footer-Contact-Container {
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 
     padding: 10px;
+}
+
+.Footer-Contact-Container > ul > li {
+    font-size: 16px;
+}
+
+
+.Footer-Links-Container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+}
+
+.Footer-Linkls-Container > ul > li > a {
+    list-style: none;
+    font-size: 16px;
+    transition: 0.5s all ease-in-out;
+}
+
+.Footer-Links-Container > ul > li > a:hover {
+    transform: translateX(15px);
+    color: white;
+}
+
+
+.Footer-Social-Icons-Container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+}
+
+.Footer-Social-Icons-Container > ul {
+    display: flex;
+    gap: 20px;
+    transition: 0.5s all ease-in-out;
+}
+
+.Footer-Social-Icons-Container > ul > li > a:hover {
+    color: white;
+    transform: scale(1.1);
 }
