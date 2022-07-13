@@ -1,5 +1,5 @@
 import React from 'react'
-import './Navigation.css'
+import '../Hero.css'
 
 function Navigation() {
   return (
