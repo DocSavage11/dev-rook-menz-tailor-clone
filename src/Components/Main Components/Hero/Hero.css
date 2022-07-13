@@ -274,6 +274,8 @@ body {
 }
 
 @media only screen and (max-width: 504px) { 
+    
+    
     .discoverCard {
         left: 70px;
     }

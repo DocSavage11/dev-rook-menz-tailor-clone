@@ -9,7 +9,7 @@ function ClientFeedback() {
             <div className="Visit-Box-Title">
                 <p id="OurLocatiion">Client Feedback</p>
 
-                <p id="VisitOurTailors">Our Work For Clients</p>
+                <p className='OurWorkForClients'>Our Work For Clients</p>
             </div>
 
             <div className="Feedback-Slider">
