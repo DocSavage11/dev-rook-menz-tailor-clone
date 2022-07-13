@@ -64,7 +64,6 @@ ul {
 }
 
 .Offer-Cards-Container {
-    border: 1px solid white;
     display: grid;
 
     margin: auto;
@@ -193,6 +192,7 @@ color: #c6a16e;
 .Video-Card {
     background-image: url(../../../Assets/Images/Gallery/videobg.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 
     position: absolute;
@@ -587,7 +587,6 @@ color: #c6a16e;
 
 @media only screen and (max-width: 1300px) {
     .History-Card-Container {
-        border: 1px solid white;
 
         height: 500px;
         width: 76%;
@@ -659,7 +658,6 @@ color: #c6a16e;
     }
 
     .Visit-Our-Tailors-Box {
-        border: 1px solid white;
         height: 350px;
         padding: 0px;
     }
@@ -708,7 +706,6 @@ color: #c6a16e;
     }
 
     .Offer-Card {
-        border: 1px solid white;
         width: 280px;
     }
 
@@ -774,9 +771,6 @@ color: #c6a16e;
         width: 100%;
     }
 
-    .Our-Location-Section {
-        border: 1px solid white;
-    }
 
     .Visit-Our-Tailors-Box {
         width: 100%;
@@ -795,4 +789,10 @@ color: #c6a16e;
         font-size: 45px;
      }
 
+}
+
+@media only screen and (max-width: 480px) {  
+    .History-Information-Card {
+        height: 600px;
+    }
 }
