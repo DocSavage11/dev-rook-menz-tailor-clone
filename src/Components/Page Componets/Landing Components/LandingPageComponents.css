@@ -134,7 +134,7 @@ ul {
     margin: auto;
     margin-top: 10px;
 
-    line-height: 1.5em;
+    line-height: 32px;
 }
 
 #Service-Image {
@@ -527,7 +527,7 @@ color: #c6a16e;
     height: 54px;
     letter-spacing: 1.5px;
     transition: 0.5s all ease;
-  }
+}
 
 
 
@@ -651,6 +651,9 @@ color: #c6a16e;
          width: 80%;
     }
 
+
+
+
     .Our-Location-Section {
         height: 550px;
     }
@@ -658,10 +661,138 @@ color: #c6a16e;
     .Visit-Our-Tailors-Box {
         border: 1px solid white;
         height: 350px;
+        padding: 0px;
     }
 
     #VisitOurTailors {
         font-size: 45px;
     }
+
+    
+    .Ten-Percent-Off-Box {
+        background-color: rgba(198, 161, 110, 0.533);
+        padding: 60px 50px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .Ten-Percent-Off-Box h1 {
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+        font-family: 'Josefin Sans', sans-serif;;
+    }
+
+    .GetOfferLink {
+        outline: none;
+        border: none;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        width: 160px;
+        height: 54px;
+        letter-spacing: 1.5px;
+        transition: 0.5s all ease;
+    }
+
+}
+
+@media only screen and (max-width: 768px) { 
+    #WWOTC {
+        font-size: 35px;
+    }
+
+    #Service-Number  {
+        display: none;
+    }
+
+    .Offer-Card {
+        border: 1px solid white;
+        width: 280px;
+    }
+
+    .Offer-Cards-Container {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .Service-Image-Container {
+        width: 100%;
+    }
+
+    .Our-Location-Section {
+        flex-direction: column;
+        gap: 50px;
+        height: auto;
+    }
+
+    .Huge-Picture-Board {
+        width: 100%;
+        height: 400px;
+    }
+
+    .Lorem-Slider {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .Text-Container {
+        width: 100%;
+    }
+
+    .Text-Container > p {
+        font-size: 18px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {  
+    .What-We-offer-Section {
+        margin-top: 100px;
+    }
+
+    .Offer-Cards-Container { 
+        grid-template-columns: 1fr;
+    }
+
+    .History-Card-Container {
+        margin-top: 100px;
+    }
+
+    .Feedback-Container {
+        margin-top: 100px;
+    }
+
+    .Our-Location-Section {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 480px) {  
+    .History-Text-Container {
+        width: 100%;
+    }
+
+    .Our-Location-Section {
+        border: 1px solid white;
+    }
+
+    .Visit-Our-Tailors-Box {
+        width: 100%;
+        height: auto;
+    }
+
+    #VisitOurTailors {
+        font-size: 40px;
+    }
+
+    #locationDescription, #emails, #openingHours  {
+        font-size: 12px;
+    }
+
+    .History-Text-Container > h3 {
+        font-size: 45px;
+     }
 
 }

@@ -227,6 +227,47 @@ body {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .Nav-Bar {
+        width: 100%;
+        height: 70px;
+        position:fixed;
+    }
+
+    #Logo {
+        margin-left: 50px;
+    }
+    
+    .Nav-link-Container {
+        display: none;
+    }
+
+    #menuIcon {
+        display: block;
+        margin-right: 50px;
+    }
+
+    .Big-Hero-Board {
+        top: 70px;
+        height: 450px;
+        width: 100%;
+    }
+
+    .discoverCard {
+       left: 125px;
+        top: 120px;
+    }
+
+    #slogan {
+        font-size: 45px;
+    } 
+
+    .Hero {
+        height: 500px;
+        background-color: white;
+    }
+}
+
 @media only screen and (max-width: 619px) { 
     .discoverCard {
         left: 100px;
